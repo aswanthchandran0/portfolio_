@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <clipPath id="circleClip">
+      <circle cx="200" cy="200" r="200"/>
+    </clipPath>
+    <pattern id="dotGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#E3E8F0"/>
+    </pattern>
+  </defs>
+
+  <g clip-path="url(#circleClip)">
+    <rect width="400" height="400" fill="#F7F9FC"/>
+    <rect width="400" height="400" fill="url(#dotGrid)"/>
+    <circle cx="200" cy="200" r="200" fill="none"/>
+
+    <!-- soft accent arc -->
+    <path d="M400 200a200 200 0 0 0 -140 -190" stroke="#EAF0FF" stroke-width="60" fill="none"/>
+
+    <!-- monogram -->
+    <text x="200" y="232" font-family="'Space Grotesk', ui-sans-serif, system-ui, sans-serif"
+          font-size="128" font-weight="600" fill="#0B1220" text-anchor="middle">AC</text>
+  </g>
+
+  <circle cx="200" cy="200" r="198" fill="none" stroke="#E3E8F0" stroke-width="4"/>
+</svg>
